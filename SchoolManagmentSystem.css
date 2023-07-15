@@ -279,6 +279,42 @@ h3{
 	margin-right: 30px;
 	border-radius: 50%;
 }
+.testimonial-col h3{
+	text-align: right;
+	margin-top: 15px;
+}
+
+.testimonial-col .fa{
+	text-align: left;
+	color:#f44366;
+}
+
+.con{
+	text-align: center;
+}
+
+.contact-btn{
+	display: inline-block;
+	text-decoration: none;
+	color:#e21414;
+	border: 2px solid #0c0c0c ;
+	padding: 12px 34px;
+	font: size 13px;
+	background: #fff3f3;
+	position: absolute;
+	cursor: pointer;
+	text-align: center;
+}
+
+/*nav .fa{
+	display: none;
+}*/
+.contact-btn:hover{
+	color: #141313;
+	border: 1px solid;
+	background: #f60b0b;
+	transition: 1s;
+}
 /*
 @charset "utf-8";
 ::-moz-selection {
