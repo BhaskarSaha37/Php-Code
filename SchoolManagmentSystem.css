@@ -337,6 +337,30 @@ h3{
 .fa-heart-o{
 	color:#f44336;
 }
+
+
+
+
+
+
+
+/*-------------------About Us Page-------------------*/
+.sub-header{
+	height: 50vh;
+	width:100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Project/GraduationPhoto.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+}
+.sub-header{
+	margin-top: 100PX;
+}
+.row.about-col h3{
+	text-align: center;
+	color:#e06e85;
+}
 /*
 @charset "utf-8";
 ::-moz-selection {
