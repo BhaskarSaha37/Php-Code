@@ -81,9 +81,9 @@ position: fixed;
 	text-align: center;
 }
 
-/*nav .fa{
+nav .fa{
 	display: none;
-}*/
+}
 .hero-btn:hover{
 	color: #fff;
 	border: 1px solid;
@@ -443,7 +443,7 @@ h3{
 .contact-col p{
 	padding: 0;
 }
-.contact-col input,.campus-col textarea{
+.contact-col input, .contact-col textarea{
 	width: 100%;
 	padding: 15px;
 	margin-bottom: 17px;

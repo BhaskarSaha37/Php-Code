@@ -16,8 +16,15 @@
           <img src="Project/collegeLogo.png">
         </a>
         <div class="nav-links" id="navLinks">
+          <i class="fa fa-window-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
         </div>
-    
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
       <h1>Our Courses</h1>
 
@@ -94,7 +101,18 @@
   </div>
   <p>Made by <i class="fa fa-heart-o"></i> Let's Learn Knowledege System</p>
 </section>
-
+<!--Javascript code forr toggole menu-->
+<script>
+  var navLinks=document.getElementById("navLinks");
+    function showMenu()
+    {
+      navLinks.style.right="0";
+    }
+    function hideMenu()
+    {
+      navLinks.style.right="-200px";
+    }
+</script>
 
 
 </body>
