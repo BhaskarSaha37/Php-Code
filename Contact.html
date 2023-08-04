@@ -61,7 +61,7 @@
           </div>
         </div>
           <div class="contact-col">
-            <form action="FormSubmit.php" method="post">
+            <form onsubmit="sendEmail(); reset(); return false">
               <input type="text" name="name" placeholder="Enter Your Name" required>
               <input type="email" name="email" placeholder="Enter Your Email Address" required>
               <input type="text" name="subject" placeholder="Enter Your Subject" required>
@@ -72,6 +72,23 @@
         </div>
       </section>
 
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script>
+        function sendEmail()
+        {
+              Email.send({
+        Host : "smtp.gmail.com",
+        Username : "bhaskarsaha37@gmail.com",
+        Password : "Bhas@789",
+        To : 'bhaskarsaha37.bs@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "New Contact Form enquiry",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+        }
+      </script>
 
 <!-----Footer-->
 <section class="footer">
